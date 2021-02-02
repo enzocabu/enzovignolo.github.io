@@ -2,6 +2,7 @@ body {
   background-color: #f8f1f1;
   margin: 0;
   font-family: "Ubuntu", sans-serif;
+  font-size: 100%;
 }
 
 hr {
@@ -19,14 +20,15 @@ hr.secondary-bar {
 
 h1.title-main {
   color: #19456b;
-  font-size: 120;
+  font-size: 8em;
   font-weight: 300;
   margin: 0;
   padding: 0;
 }
+
 h1.section-title {
   color: #19456b;
-  font-size: 78;
+  font-size: 3.5em;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -34,7 +36,7 @@ h1.section-title {
 
 h2.title-description {
   align-self: end;
-  font-size: 30;
+  font-size: 1.5em;
   color: #11698e;
   margin-top: 5px;
   margin-bottom: 0;
@@ -105,7 +107,7 @@ h2.title-description {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 1.7em;
   line-height: 29px;
   padding: 30px;
 }
@@ -114,6 +116,42 @@ h2.title-description {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1200px) {
+  h1.title-main {
+    font-size: 5em;
+  }
+  h1.section-title {
+    font-size: 2.5em;
+  }
+  h2.title-description {
+    font-size: 0.8em;
+  }
+  .detail p{
+    font-size: 1em;
+  }
+  @media (max-width: 900px) {
+    h1.title-main {
+      font-size: 3em;
+    }
+    h1.section-title {
+      font-size: 1em;
+    }
+    h2.title-description {
+      font-size: 0.8em;
+    }
+    .top-container{
+      justify-content: center;
+    }
+    .detail p{
+      font-size: 0.8em;
+    }
+    .cv.right{
+      justify-content: center;
+    }
+    .cv.left{
+      justify-content: center;
+    }
+  }
 
 /*
 .title-division.studies {
