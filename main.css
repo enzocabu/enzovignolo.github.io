@@ -116,7 +116,7 @@ h2.title-description {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   h1.title-main {
     font-size: 5em;
   }
