@@ -142,6 +142,9 @@ h2.title-description {
     .top-container{
       justify-content: center;
     }
+    .detail{
+      margin: 20px 15px;
+    }
     .detail p{
       font-size: 0.8em;
     }
