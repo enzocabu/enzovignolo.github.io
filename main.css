@@ -78,22 +78,27 @@ h2.title-description {
 #studies-detail {
   max-height: 0;
   overflow: hidden;
+  transition: max-height 2s;
 }
 #contact-detail {
   max-height: 0;
   overflow: hidden;
+  transition: max-height 2s;
 }
 #portfolio-detail {
   max-height: 0;
   overflow: hidden;
+  transition: max-height 2s;
 }
 #work-detail {
   max-height: 0;
   overflow: hidden;
+  transition: max-height 2s;
 }
 #courses-detail {
   max-height: 0;
   overflow: hidden;
+  transition: max-height 2s;
 }
 .detail p {
   color: #11698e;

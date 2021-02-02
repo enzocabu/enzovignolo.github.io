@@ -24,7 +24,9 @@ function showDetails(elementDetail) {
   elementStyle = getComputedStyle(element);
   if (elementStyle.maxHeight == "0px") {
     element.style.maxHeight = "1000px";
+    element.style.transistion = "max-height 2s";
   } else {
     element.style.maxHeight = "0px";
+    element.style.transition = "max-height 0.5s";
   }
 }
