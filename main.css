@@ -1,0 +1,135 @@
+body {
+  background-color: #f8f1f1;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+hr {
+  height: 0px;
+  bottom: 1335px;
+  border: 1px solid #16c79a;
+  right: -1210px;
+  width: 85%;
+}
+hr.secondary-bar {
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 20%;
+}
+
+h1.title-main {
+  color: #19456b;
+  font-size: 120;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+h1.section-title {
+  color: #19456b;
+  font-size: 78;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h2.title-description {
+  align-self: end;
+  font-size: 30;
+  color: #11698e;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: 120;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+}
+.top-container {
+  display: flex;
+  justify-content: start;
+  margin: 50px 150px 15px 150px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv.right {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 50px;
+}
+.cv.left {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 50px;
+}
+
+.detail {
+  background-color: rgba(22, 199, 154, 0.2);
+  border-radius: 15px;
+  margin: 20px 150px;
+}
+
+#studies-detail {
+  max-height: 0;
+  overflow: hidden;
+}
+#contact-detail {
+  max-height: 0;
+  overflow: hidden;
+}
+#portfolio-detail {
+  max-height: 0;
+  overflow: hidden;
+}
+#work-detail {
+  max-height: 0;
+  overflow: hidden;
+}
+#courses-detail {
+  max-height: 0;
+  overflow: hidden;
+}
+.detail p {
+  color: #11698e;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  padding: 30px;
+}
+
+.detailed-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+.title-division.studies {
+  display: flex;
+}
+.studies {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px;
+  padding: 50px;
+}
+.experience {
+  display: flex;
+  justify-content: flex-start;
+  margin: 50px;
+  padding: 50px;
+}
+.courses {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px;
+  padding: 50px;
+}
+*/
