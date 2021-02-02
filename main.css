@@ -4,7 +4,12 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 100%;
 }
+img{
+  width: 2em;
+  margin:auto;
+  display: inline;
 
+}
 hr {
   height: 0px;
   bottom: 1335px;
@@ -12,10 +17,25 @@ hr {
   right: -1210px;
   width: 85%;
 }
+.selector{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 512px;
+}
+.arrow{
+  width: 0; 
+  height: 0; 
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+ 
+  border-top: 1em solid #16c79a;
+}
 hr.secondary-bar {
   margin-top: 0px;
   padding-top: 0px;
   width: 20%;
+  display: inline;
 }
 
 h1.title-main {
@@ -32,6 +52,8 @@ h1.section-title {
   font-weight: 300;
   margin: 0;
   padding: 0;
+  text-align:center;
+
 }
 
 h2.title-description {
@@ -129,6 +151,9 @@ h2.title-description {
   .detail p{
     font-size: 1em;
   }
+  img{
+    width: 1em;
+  }
   @media (max-width: 900px) {
     h1.title-main {
       font-size: 3em;
@@ -153,6 +178,9 @@ h2.title-description {
     }
     .cv.left{
       justify-content: center;
+    }
+    img{
+      width: 0.5em;
     }
   }
 
