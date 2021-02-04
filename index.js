@@ -1,23 +1,33 @@
-studiesDetail = document.getElementById("studies");
-experienceDetail = document.getElementById("experience");
-coursesDetail = document.getElementById("courses");
-portfolioDetail = document.getElementById("portfolio");
-contactDetail = document.getElementById("contact");
-studiesDetail.addEventListener("click", () => {
-  showDetails("studies-detail");
-});
-experienceDetail.addEventListener("click", () => {
-  showDetails("work-detail");
-});
-coursesDetail.addEventListener("click", () => {
-  showDetails("courses-detail");
-});
-portfolioDetail.addEventListener("click", () => {
-  showDetails("portfolio-detail");
-});
-contactDetail.addEventListener("click", () => {
-  showDetails("contact-detail");
-});
+studiesDetail = document.getElementsByClassName("studies");
+experienceDetail = document.getElementsByClassName("experience");
+coursesDetail = document.getElementsByClassName("courses");
+portfolioDetail = document.getElementsByClassName("portfolio");
+contactDetail = document.getElementsByClassName("contact");
+for (i in [...Array(2).keys()]) {
+  studiesDetail[i].addEventListener("click", () => {
+    showDetails("studies-detail");
+  });
+}
+for (i in [...Array(2).keys()]) {
+  experienceDetail[i].addEventListener("click", () => {
+    showDetails("work-detail");
+  });
+}
+for (i in [...Array(2).keys()]) {
+  coursesDetail[i].addEventListener("click", () => {
+    showDetails("courses-detail");
+  });
+}
+for (i in [...Array(2).keys()]) {
+  portfolioDetail[i].addEventListener("click", () => {
+    showDetails("portfolio-detail");
+  });
+}
+for (i in [...Array(2).keys()]) {
+  contactDetail[i].addEventListener("click", () => {
+    showDetails("contact-detail");
+  });
+}
 
 function showDetails(elementDetail) {
   element = document.getElementById(elementDetail);

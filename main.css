@@ -4,11 +4,16 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 100%;
 }
-img{
+img {
   width: 2em;
-  margin:auto;
+  margin: auto;
   display: inline;
+}
+img.qr {
+  margin: 1em;
 
+  width: 10em;
+  height: auto;
 }
 hr {
   height: 0px;
@@ -17,18 +22,18 @@ hr {
   right: -1210px;
   width: 85%;
 }
-.selector{
+.selector {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 512px;
 }
-.arrow{
-  width: 0; 
-  height: 0; 
+.arrow {
+  width: 0;
+  height: 0;
   border-left: 1em solid transparent;
   border-right: 1em solid transparent;
- 
+
   border-top: 1em solid #16c79a;
 }
 hr.secondary-bar {
@@ -52,8 +57,7 @@ h1.section-title {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  text-align:center;
-
+  text-align: center;
 }
 
 h2.title-description {
@@ -148,62 +152,45 @@ h2.title-description {
   h2.title-description {
     font-size: 0.8em;
   }
-  .detail p{
+  .detail p {
     font-size: 1em;
   }
-  img{
+  img {
     width: 1em;
   }
-  @media (max-width: 900px) {
-    h1.title-main {
-      font-size: 3em;
-    }
-    h1.section-title {
-      font-size: 1em;
-    }
-    h2.title-description {
-      font-size: 0.8em;
-    }
-    .top-container{
-      justify-content: center;
-    }
-    .detail{
-      margin: 20px 15px;
-    }
-    .detail p{
-      font-size: 0.8em;
-    }
-    .cv.right{
-      justify-content: center;
-    }
-    .cv.left{
-      justify-content: center;
-    }
-    img{
-      width: 0.5em;
-    }
+  img.q {
+    width: 5em;
   }
-
-/*
-.title-division.studies {
-  display: flex;
 }
-.studies {
-  display: flex;
-  justify-content: flex-end;
-  margin: 50px;
-  padding: 50px;
+@media (max-width: 900px) {
+  h1.title-main {
+    font-size: 3em;
+  }
+  h1.section-title {
+    font-size: 1em;
+  }
+  h2.title-description {
+    font-size: 0.8em;
+  }
+  .top-container {
+    justify-content: center;
+  }
+  .detail {
+    margin: 20px 15px;
+  }
+  .detail p {
+    font-size: 0.8em;
+  }
+  .cv.right {
+    justify-content: center;
+  }
+  .cv.left {
+    justify-content: center;
+  }
+  img {
+    width: 0.5em;
+  }
+  img.qr {
+    width: 2.5em;
+  }
 }
-.experience {
-  display: flex;
-  justify-content: flex-start;
-  margin: 50px;
-  padding: 50px;
-}
-.courses {
-  display: flex;
-  justify-content: flex-end;
-  margin: 50px;
-  padding: 50px;
-}
-*/
