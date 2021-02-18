@@ -37,7 +37,7 @@ function showDetails(elementDetail, arrow) {
   elementStyle = getComputedStyle(element);
   if (elementStyle.maxWidth == "0%") {
     element.style.maxHeight = "500rem";
-    element.style.maxWidth = "35%";
+    element.style.maxWidth = "calc(10rem + 20vw)";
     element.style.transistion = "max-width 2s ,max-height 2s";
     arrowElement = document.getElementById(arrow);
     arrowElement.style.transform = "rotate(0.25turn)";
