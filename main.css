@@ -161,6 +161,12 @@ img.contact-icon {
   h2.section-title {
     text-align: center;
   }
+  .subtitle-div {
+    display: block;
+  }
+  img.icon {
+    display: none;
+  }
   .section-three {
     align-self: center;
 
@@ -169,6 +175,7 @@ img.contact-icon {
   img.app {
     float: none;
   }
+
   .qr-codes img {
     margin: auto;
   }
